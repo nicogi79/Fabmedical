@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 function replace_json_field {
@@ -58,7 +57,7 @@ GITHUB_TOKEN=$MCW_GITHUB_TOKEN
 cd ~/Fabmedical
 echo $GITHUB_TOKEN | gh auth login --with-token
 gh secret set ACR_USERNAME -b "nicogi79"
-gh secret set ACR_PASSWORD -b "t93bnpuhuiuweab" 
+gh secret set ACR_PASSWORD -b "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" 
 
 # Committing repository
 cd ~/Fabmedical
